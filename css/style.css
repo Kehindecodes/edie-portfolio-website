@@ -588,10 +588,8 @@ ul {
     #footer .socials {
       margin-bottom: 2rem; }
     #footer .contacts {
-      margin-bottom: 3rem; }
-      #footer .contacts form input[type='emaiL'] {
-        width: 100%; } }
-@media only screen and (max-width: 500px) {
+      margin-bottom: 3rem; } }
+@media screen and (max-width: 500px) {
   .img-wrapper {
     padding: 0 2rem;
     height: 150px; }
@@ -607,7 +605,15 @@ ul {
   .contacts form .btn {
     width: 94px !important;
     left: 16rem !important; } }
-@media only screen and (max-width: 500px) and (min-width: 375px) and (max-width: 400px) {
+@media only screen and (max-width: 500px) and (max-width: 450px) {
+  .lower form .btn {
+    width: 94px !important;
+    left: 17rem !important; }
+
+  .contacts form .btn {
+    width: 94px !important;
+    left: 17rem !important; } }
+@media screen and (max-width: 500px) and (min-width: 375px) and (max-width: 400px) {
   .lower form .btn {
     width: 71px !important;
     left: 16rem !important; }

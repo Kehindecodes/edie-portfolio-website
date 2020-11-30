@@ -295,17 +295,12 @@ $nav-items: Home, Services, Our Work, Clients, Contact;
     }
     .contacts {
       margin-bottom: 3rem;
-      form {
-        input[type='emaiL'] {
-          width: 100%;
-        }
-      }
     }
   }
 }
 
 // small mobile screens
-@media only screen and (max-width: 500px) {
+@media screen and (max-width: 500px) {
   .img-wrapper {
     padding: 0 2rem;
     height: 150px;
@@ -332,6 +327,25 @@ $nav-items: Home, Services, Our Work, Clients, Contact;
       .btn {
         width: 94px !important;
         left: 16rem !important;
+      }
+    }
+  }
+  @media only screen and (max-width: 450px) {
+    .lower {
+      form {
+        .btn {
+          width: 94px !important;
+          left: 17rem !important;
+        }
+      }
+    }
+
+    .contacts {
+      form {
+        .btn {
+          width: 94px !important;
+          left: 17rem !important;
+        }
       }
     }
   }
